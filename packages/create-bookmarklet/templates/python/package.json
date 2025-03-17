@@ -1,0 +1,16 @@
+
+{
+    "name": "python-bookmarklet",
+    "scripts": {
+        "build": "node build.js",
+        "prepare": "npm run download-brython",
+        "download-brython": "curl -L https://github.com/brython-dev/brython/releases/download/3.12.3/brython_dist.zip -o brython_dist.zip && unzip brython_dist.zip -d src && rm brython_dist.zip",
+        "dev": "npm run build -- --watch",
+        "clean": "rimraf dist src/__target__ src/brython.js src/__javascript__"
+    },
+    "devDependencies": {
+        "terser": "^5.27.0",
+        "fs-extra": "^11.2.0",
+        "rimraf": "^5.0.5"
+    }
+}

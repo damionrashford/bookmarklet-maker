@@ -1,0 +1,17 @@
+
+{
+    "name": "ruby-bookmarklet",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "node build.js",
+        "prepare": "mkdir -p opal && curl -L https://cdn.opalrb.com/opal/1.8.0/opal.min.js -o opal/opal.min.js && curl -L https://cdn.opalrb.com/opal/1.8.0/corelib.min.js -o opal/corelib.min.js",
+        "dev": "node build.js --watch",
+        "clean": "rimraf dist"
+    },
+    "devDependencies": {
+        "opal-compiler": "^1.8.0",
+        "terser": "^5.27.0",
+        "fs-extra": "^11.2.0",
+        "rimraf": "^5.0.5"
+    }
+}

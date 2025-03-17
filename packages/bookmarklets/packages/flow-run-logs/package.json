@@ -1,0 +1,19 @@
+{
+    "name": "@bookmarklets/flow-run-logs",
+    "version": "1.0.0",
+    "description": "Bookmarklet to open Flow run logs",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "node build.js"
+    },
+    "keywords": [
+        "bookmarklet",
+        "flow",
+        "shopify"
+    ],
+    "author": "Damion Rashford",
+    "license": "MIT",
+    "devDependencies": {
+        "terser": "^5.27.0"
+    }
+}

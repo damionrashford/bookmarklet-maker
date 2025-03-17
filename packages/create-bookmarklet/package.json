@@ -1,0 +1,37 @@
+
+{
+  "name": "create-bookmarklet-tool",
+  "version": "1.0.0",
+  "description": "A tool to create bookmarklets in various languages.",
+  "main": "bin/create.js",
+  "bin": {
+    "create-bookmarklet": "bin/create.js"
+  },
+  "keywords": [
+    "bookmarklet",
+    "generator",
+    "javascript",
+    "typescript",
+    "react",
+    "python",
+    "ruby"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.4"
+  },
+    "files": [
+        "bin/",
+        "templates/"
+    ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/bookmarklet-factory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/bookmarklet-factory/issues"
+  }
+}

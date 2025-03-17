@@ -1,0 +1,21 @@
+{
+    "name": "efficiency-bookmarklets",
+    "version": "1.0.0",
+    "description": "A collection of efficiency-enhancing bookmarklets",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "keywords": [
+        "bookmarklet",
+        "efficiency"
+    ],
+    "author": "Damion Rashford",
+    "license": "MIT",
+    "devDependencies": {
+        "lerna": "^8.1.2"
+    },
+    "scripts": {
+        "build": "node build.js"
+    }
+}

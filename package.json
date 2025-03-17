@@ -1,0 +1,8 @@
+{
+  "name": "bookmarklet-maker",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {}
+}

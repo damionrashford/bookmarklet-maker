@@ -1,0 +1,10 @@
+
+{
+  "name": "bookmarklet-runtime",
+  "version": "1.0.0",
+  "description": "Shared runtime code for bookmarklets",
+  "main": "src/jsx-runtime.js",
+  "files": [
+    "src/"
+  ]
+}
